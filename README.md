@@ -5,8 +5,7 @@ Figure 1 shows the system that we will consider.
 
 ![image](https://user-images.githubusercontent.com/46444593/113660739-0f931600-96a5-11eb-8b22-57c0a95011c5.png)
 
-The channel obviously limits the kind of signals that can pass unchanged through the channel, because if a signal has frequency components that are outside the allowable range of the channel, these components will not pass and therefore the output signal from the channel will be changed from the input signal. This issue
-will face the most common of signals that we use to represent bits: the square signal!
+The channel obviously limits the kind of signals that can pass unchanged through the channel, because if a signal has frequency components that are outside the allowable range of the channel, these components will not pass and therefore the output signal from the channel will be changed from the input signal. This issue will face the most common of signals that we use to represent bits: the square signal!
 
 band-limited channel with a band 𝑩 = 𝟏𝟎𝟎 𝒌𝑯𝒛, square pulse of duration 𝑻 = 𝟐/𝑩
 If there are multiple square signals after each other (one square signal for each bit), these leaked parts will interfere with the signals of other bits. This phenomenon is called Inter-Symbol Interference (ISI).
