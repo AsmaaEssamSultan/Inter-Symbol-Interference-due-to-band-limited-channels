@@ -15,8 +15,12 @@ If there are multiple square signals after each other (one square signal for eac
 ISI can negatively affect the detection performance of multiple consecutive signals. To combat the effect of ISI in band-limited channels, one cannot use square pulses anymore. Instead, there are other pulse shapes that are better such as sinc function
 
 # Output of the matlab code
+Squre pulses in time and frequency domains and band limited filter
 ![image](https://user-images.githubusercontent.com/46444593/113661593-b5935000-96a6-11eb-836b-64cf6fc3dfbe.png)
+Squre pulses in time and frequency domains after pass through channel
 ![image](https://user-images.githubusercontent.com/46444593/113661639-c5129900-96a6-11eb-8110-4eadc0cd8851.png)
+Sinc functions in time and frequency domains
 ![image](https://user-images.githubusercontent.com/46444593/113661674-d22f8800-96a6-11eb-9279-d3887ea60705.png)
+Sinc functions in time and frequency domains after pass through channel
 ![image](https://user-images.githubusercontent.com/46444593/113661699-de1b4a00-96a6-11eb-8977-bcaa85759520.png)
 
