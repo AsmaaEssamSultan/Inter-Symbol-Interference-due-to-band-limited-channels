@@ -156,6 +156,3 @@ ylabel('Amplitude','linewidth',2)
 legend('Sinc 1','Sinc 2','fontsize',10)
 subplot(2,1,1)
 title('Sinc function after pass through channel','linewidth',10)
-
-y_sinc = AWGNChannel(y1,No,fs);
-[num_errors,BER] = biterr(abs(round(y1)),abs(round(y_sinc)))
